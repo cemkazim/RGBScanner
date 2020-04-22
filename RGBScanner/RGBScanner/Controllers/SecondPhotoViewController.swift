@@ -118,8 +118,8 @@ class SecondPhotoViewController: UIViewController, AVCapturePhotoCaptureDelegate
     }
     
     func redPoint(location: CGPoint, size: CGSize) {
-        let x : CGFloat = (size.width) * location.x / size.width
-        let y : CGFloat = (size.height) * location.y / size.height
+        let _ : CGFloat = (size.width) * location.x / size.width
+        let _ : CGFloat = (size.height) * location.y / size.height
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
