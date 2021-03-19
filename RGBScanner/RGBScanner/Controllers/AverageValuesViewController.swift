@@ -33,8 +33,8 @@ class AverageValuesViewController: UIViewController {
     
     var isSaved: Bool?
     var isHidden: Bool?
-    var capturedPhoto: UIImage!
-    var capturedPhoto2: UIImage!
+    var capturedPhoto: UIImage?
+    var capturedPhoto2: UIImage?
     
     override func viewDidLoad() {
         super.viewDidLoad()

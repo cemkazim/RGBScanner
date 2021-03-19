@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0008961C260533AA009BD748 /* ImageContents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0008961B260533AA009BD748 /* ImageContents.swift */; };
+		0008962026053842009BD748 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0008961F26053842009BD748 /* UIViewController+Extension.swift */; };
+		00089623260538A4009BD748 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00089622260538A4009BD748 /* Constants.swift */; };
 		0043AC032347576200C98B45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0043AC022347576200C98B45 /* AppDelegate.swift */; };
 		0043AC052347576200C98B45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0043AC042347576200C98B45 /* SceneDelegate.swift */; };
 		0043AC072347576200C98B45 /* FirstPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0043AC062347576200C98B45 /* FirstPhotoViewController.swift */; };
@@ -28,6 +31,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0008961B260533AA009BD748 /* ImageContents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageContents.swift; sourceTree = "<group>"; };
+		0008961F26053842009BD748 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		00089622260538A4009BD748 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		0043ABFF2347576200C98B45 /* RGBScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RGBScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0043AC022347576200C98B45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0043AC042347576200C98B45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +67,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0008961A26053399009BD748 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0008961B260533AA009BD748 /* ImageContents.swift */,
+				0008961F26053842009BD748 /* UIViewController+Extension.swift */,
+				00089622260538A4009BD748 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		003929692393022300CA9AA3 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +130,7 @@
 		0043AC012347576200C98B45 /* RGBScanner */ = {
 			isa = PBXGroup;
 			children = (
+				0008961A26053399009BD748 /* Utilities */,
 				0039296A2393023900CA9AA3 /* Storyboard */,
 				003929692393022300CA9AA3 /* Controllers */,
 				0039296C2393025100CA9AA3 /* Images */,
@@ -205,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0043AC3A2348A42900C98B45 /* AverageValuesViewController.swift in Sources */,
+				0008962026053842009BD748 /* UIViewController+Extension.swift in Sources */,
 				0043AC0D2347576200C98B45 /* RGBScanner.xcdatamodeld in Sources */,
 				00BED0A1239A93B300B303D6 /* StartPageViewController.swift in Sources */,
 				00603A3E239D9FF600234259 /* PointValuesViewController.swift in Sources */,
@@ -213,6 +231,8 @@
 				0043AC032347576200C98B45 /* AppDelegate.swift in Sources */,
 				00BED09B239A69F700B303D6 /* SavedRGBValues.swift in Sources */,
 				0043AC052347576200C98B45 /* SceneDelegate.swift in Sources */,
+				00089623260538A4009BD748 /* Constants.swift in Sources */,
+				0008961C260533AA009BD748 /* ImageContents.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
